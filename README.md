@@ -1,13 +1,13 @@
-## Nest Js 연습
+# Nest Js 연습
 Nest Js 프레임워크를 사용하여 백엔드 API 구현 및 기능 연습
 
-# 데이터베이스
+## 데이터베이스
 
 몽고db (mongoose) 사용
 npm i @nestjs/mongoose mongoose
 npm i --save @nestjs/config (환경 변수 설정 .env 사용)
 
-# 라이브러리
+## 라이브러리
 
 1. Class validator
    npm i --save class-validator class-transformer
@@ -28,53 +28,53 @@ npm i --save @nestjs/config (환경 변수 설정 .env 사용)
    npm i @nestjs/passport passport
    npm install --save @nestjs/jwt passport-jwt
 
-# 구조
+## 구조
 
-# application
-
-users
-
-# modules
-
-users
-auth
-
-# controllers
+### application
 
 users
 
-# Services
+### modules
 
 users
 auth
 
-# middleware
+### controllers
+
+users
+
+### Services
+
+users
+auth
+
+### middleware
 
 logger
 -> 로그 출력
 
-# pipes
+### pipes
 
 positiveint.pipe
 -> param을 양의 정수형으로 변환
 
-# interceptors
+### interceptors
 
 SuccesInterceptor
 -> api 로드가 성공했을때 응답
 
 
-# 기능 구현
+## 기능 구현
 
 1. 회원가입
 2. 로그인(토큰 생성)
 
-# 미구현
+## 미구현
 
 1. 인증, 로그아웃
 2. 결제 시스템
 
-# COR문제 해결
+### COR문제 해결
 
 (main.ts)
 app.enableCors({
