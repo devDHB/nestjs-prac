@@ -1,4 +1,4 @@
-Nest Js 연습
+## Nest Js 연습
 Nest Js 프레임워크를 사용하여 백엔드 API 구현 및 기능 연습
 
 # 데이터베이스
@@ -21,8 +21,8 @@ npm i --save @nestjs/config (환경 변수 설정 .env 사용)
 3. swagger
    npm install --save @nestjs/swagger swagger-ui-express
 
-http://localhost:8000/docs
--> api 확인하기
+  http://localhost:8000/docs
+  -> api 확인하기
 
 4. jwt passport
    npm i @nestjs/passport passport
@@ -63,18 +63,16 @@ positiveint.pipe
 SuccesInterceptor
 -> api 로드가 성공했을때 응답
 
-기능
 
-구현완료
+# 기능 구현
 
 1. 회원가입
 2. 로그인(토큰 생성)
 
-미구현
+# 미구현
 
-1. 유저정보 불러오기
-2. 인증, 로그아웃
-3. 결제 시스템
+1. 인증, 로그아웃
+2. 결제 시스템
 
 # COR문제 해결
 
